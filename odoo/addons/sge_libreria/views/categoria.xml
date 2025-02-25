@@ -1,0 +1,30 @@
+<odoo>
+  <data>
+ <record id="sge_libreria.categoria_tree" model="ir.ui.view">
+  <field name="name">sge_libreria.categoria.tree</field>
+  <field name="model">model_name</field>
+  <field name="arch" type="xml">
+    <tree string="Categoría">
+    <field name="name"></field>
+    <field name="description" />
+      
+    </tree>
+  </field>
+ </record>
+  <record id="model_name_view_form" model="ir.ui.view">
+    <field name="name">model_name.view.form</field>
+    <field name="model">model_name</field>
+    <field name="arch" type="xml">
+      <form string="">
+        <sheet>
+          <group>
+            
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+ </record>
+
+  </data>
+</odoo>

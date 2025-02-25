@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_skb_reservas_skb_reservas,skb_reservas.skb_reservas,model_skb_reservas_skb_reservas,base.group_user,1,1,1,1
