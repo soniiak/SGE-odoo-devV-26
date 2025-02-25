@@ -1,5 +1,5 @@
 from odoo import models, fields, api
-
+from datetime import datetime
 
 class Reserva(models.Model):
     _name = 'skb_reservas.reserva'

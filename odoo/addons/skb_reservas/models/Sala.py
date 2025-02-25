@@ -7,7 +7,7 @@ class Sala(models.Model):
     name = fields.Char('Nombre',required=True)
     capacidad = fields.Integer('Capacidad')
     disponible = fields.Boolean('Disponible',default=True)
-    reservas_ids = fields.One2many('skb_reservas.reservas', 'sala_id', string="Reservas") 
+    reservas_ids = fields.One2many('skb_reservas.reserva', 'sala_id', string="Reservas") 
 
 
     
